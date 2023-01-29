@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+nav{
+    display: flex;
+ background-color: black;
+ align-items: center;
+ justify-content: space-between;
+ height: 70px;
+ width: 100%;
+margin: 4px 50px;
+padding: 0 30px;
+}
+.image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+ul li{
+    color: white;
+    text-transform: capitalize;
+  /* transition-delay: .3s; */
+  transition-duration: 3s;
+}
+ul li:hover{
+    color: yellow;
+    text-transform: uppercase;
+   transition-duration: 3s;
+
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+   /* height: 900px; */
+padding: 30px 30px;
+    /* background-color: rgb(129, 129, 164); */
+    overflow: hidden;
+margin: 10px 50px;
+gap: 40px;
+
+}
+.div1 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div2 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div3 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div4 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div5 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div6 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div7 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div8 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div9 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div10 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div11 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div12 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div13 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+}
+.div14 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+    border: 2px solid black;
+}
+.div15 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 70px 5px;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1370px) {
+    nav{
+          width: 1250px;
+        }
+        .box{
+            margin: 10px 80px;
+        }
+}
+@media only screen and (max-width:1350px) {
+    nav{
+          width: 1200px;
+        }
+}
+@media only screen and (max-width:1270px) {
+    nav{
+          width: 1150px;
+        }
+}
+@media only screen and (max-width:1230px) {
+    nav{
+          width: 1100px;
+        }
+}
+@media only screen and (max-width:1170px) {
+    nav{
+          width: 1000px;
+        }
+}
+@media only screen and (max-width:1070px) {
+    nav{
+          width: 920px;
+        }
+}
+@media only screen and (max-width:1015px) {
+    nav{
+          width: 900px;
+        }
+}
+@media only screen and (max-width:968px) {
+    nav{
+          width: 800px;
+        }
+}
+@media only screen and (max-width:870px) {
+    nav{
+          width: 760px;
+    
+        }
+}
+@media only screen and (max-width:830px) {
+    nav{
+          width: 720px;
+        }
+}
+@media only screen and (max-width:790px) {
+    nav{
+          width: 590px;
+        }
+}
+@media only screen and (max-width:670px) {
+    nav{
+          width: 570px;
+        }
+}
+@media only screen and (max-width:640px) {
+    nav{
+          width: 520px;
+        }
+}
+@media only screen and (max-width:590px) {
+    nav{
+          width: 510px;
+          margin-left: 3px;
+        }
+}
+@media only screen and (max-width:533px) {
+    nav{
+          width: 460px;
+         
+        }
+}
+/* @media only screen and (max-width:513px) {
+    nav{
+          width: 400px;
+        
+        }
+} */
+@media only screen and (max-width:500px) {
+    nav{
+          width: 399px;
+         
+        }
+}
+@media only screen and (max-width: 412px){
+nav {
+    width: 405px;
+    margin-left: 3px;
+    overflow: hidden;
+}
+.div1 img{
+    width: 900px;
+    height: 300px;
+    /* object-fit: cover; */
+}
+.div2 img{
+    width: 500px;
+    height: 300px;
+    /* object-fit: cover; */
+}
+.div3 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div4 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div5 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div6 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div7 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div8 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div9 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div10 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div11 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div12 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div13 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div14 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.div15 img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+}
+@media only screen and (max-width:375px){
+    nav{
+          width: 370px;
+        }
+    }
